@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8D0C98A7F4AE122686F762C6 /* Pods_RailsSampleTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DFD6A7EAE01FBD3D894FBBBA /* Pods_RailsSampleTests.framework */; };
 		B2761262226E06E3005AA586 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2761261226E06E3005AA586 /* AppDelegate.swift */; };
 		B2761264226E06E3005AA586 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2761263226E06E3005AA586 /* ViewController.swift */; };
 		B2761267226E06E3005AA586 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B2761265226E06E3005AA586 /* Main.storyboard */; };
@@ -14,6 +15,8 @@
 		B276126C226E06E4005AA586 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B276126A226E06E4005AA586 /* LaunchScreen.storyboard */; };
 		B2761277226E06E4005AA586 /* RailsSampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2761276226E06E4005AA586 /* RailsSampleTests.swift */; };
 		B2761282226E06E4005AA586 /* RailsSampleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2761281226E06E4005AA586 /* RailsSampleUITests.swift */; };
+		B2CB407E6FD4165F57D8CDC6 /* Pods_RailsSample.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 689019F6E54E44AFBFBD55E4 /* Pods_RailsSample.framework */; };
+		E76CC945F9F77A03FBD6D2F7 /* Pods_RailsSampleUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AC782797222E643EDB31BDB1 /* Pods_RailsSampleUITests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +37,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		051A7A9A5F8AC9405FB9548B /* Pods-RailsSampleTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RailsSampleTests.debug.xcconfig"; path = "Target Support Files/Pods-RailsSampleTests/Pods-RailsSampleTests.debug.xcconfig"; sourceTree = "<group>"; };
+		0E63932A881E7094A9D31AFB /* Pods-RailsSampleUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RailsSampleUITests.debug.xcconfig"; path = "Target Support Files/Pods-RailsSampleUITests/Pods-RailsSampleUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		2F3EA1C95C144D6251A7A4EC /* Pods-RailsSample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RailsSample.release.xcconfig"; path = "Target Support Files/Pods-RailsSample/Pods-RailsSample.release.xcconfig"; sourceTree = "<group>"; };
+		6268DB57A093B656FABD6433 /* Pods-RailsSample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RailsSample.debug.xcconfig"; path = "Target Support Files/Pods-RailsSample/Pods-RailsSample.debug.xcconfig"; sourceTree = "<group>"; };
+		689019F6E54E44AFBFBD55E4 /* Pods_RailsSample.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RailsSample.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A3FB02AA26DFAE06CE063A97 /* Pods-RailsSampleTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RailsSampleTests.release.xcconfig"; path = "Target Support Files/Pods-RailsSampleTests/Pods-RailsSampleTests.release.xcconfig"; sourceTree = "<group>"; };
+		AC782797222E643EDB31BDB1 /* Pods_RailsSampleUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RailsSampleUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B276125E226E06E3005AA586 /* RailsSample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RailsSample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B2761261226E06E3005AA586 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B2761263226E06E3005AA586 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +57,8 @@
 		B276127D226E06E4005AA586 /* RailsSampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RailsSampleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B2761281226E06E4005AA586 /* RailsSampleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RailsSampleUITests.swift; sourceTree = "<group>"; };
 		B2761283226E06E4005AA586 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DFD6A7EAE01FBD3D894FBBBA /* Pods_RailsSampleTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RailsSampleTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F78030D245EC477C54FD5759 /* Pods-RailsSampleUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RailsSampleUITests.release.xcconfig"; path = "Target Support Files/Pods-RailsSampleUITests/Pods-RailsSampleUITests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +66,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B2CB407E6FD4165F57D8CDC6 /* Pods_RailsSample.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +74,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8D0C98A7F4AE122686F762C6 /* Pods_RailsSampleTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,12 +82,27 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E76CC945F9F77A03FBD6D2F7 /* Pods_RailsSampleUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		528302D6702628F3D47828C3 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6268DB57A093B656FABD6433 /* Pods-RailsSample.debug.xcconfig */,
+				2F3EA1C95C144D6251A7A4EC /* Pods-RailsSample.release.xcconfig */,
+				051A7A9A5F8AC9405FB9548B /* Pods-RailsSampleTests.debug.xcconfig */,
+				A3FB02AA26DFAE06CE063A97 /* Pods-RailsSampleTests.release.xcconfig */,
+				0E63932A881E7094A9D31AFB /* Pods-RailsSampleUITests.debug.xcconfig */,
+				F78030D245EC477C54FD5759 /* Pods-RailsSampleUITests.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		B2761255226E06E3005AA586 = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +110,8 @@
 				B2761275226E06E4005AA586 /* RailsSampleTests */,
 				B2761280226E06E4005AA586 /* RailsSampleUITests */,
 				B276125F226E06E3005AA586 /* Products */,
+				528302D6702628F3D47828C3 /* Pods */,
+				CCAD15DECB0E153D090F56D2 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -125,6 +156,16 @@
 			path = RailsSampleUITests;
 			sourceTree = "<group>";
 		};
+		CCAD15DECB0E153D090F56D2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				689019F6E54E44AFBFBD55E4 /* Pods_RailsSample.framework */,
+				DFD6A7EAE01FBD3D894FBBBA /* Pods_RailsSampleTests.framework */,
+				AC782797222E643EDB31BDB1 /* Pods_RailsSampleUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +173,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B2761286226E06E5005AA586 /* Build configuration list for PBXNativeTarget "RailsSample" */;
 			buildPhases = (
+				A24C3B60BDEDC8C8B009CA6A /* [CP] Check Pods Manifest.lock */,
 				B276125A226E06E3005AA586 /* Sources */,
 				B276125B226E06E3005AA586 /* Frameworks */,
 				B276125C226E06E3005AA586 /* Resources */,
+				1AF3A21B8A8ABB8D6FB2179B /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -149,6 +192,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B2761289226E06E5005AA586 /* Build configuration list for PBXNativeTarget "RailsSampleTests" */;
 			buildPhases = (
+				32E9A1BB3FFA35035B805638 /* [CP] Check Pods Manifest.lock */,
 				B276126E226E06E4005AA586 /* Sources */,
 				B276126F226E06E4005AA586 /* Frameworks */,
 				B2761270226E06E4005AA586 /* Resources */,
@@ -167,6 +211,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B276128C226E06E5005AA586 /* Build configuration list for PBXNativeTarget "RailsSampleUITests" */;
 			buildPhases = (
+				EEC35FC2D7B159AF03755F96 /* [CP] Check Pods Manifest.lock */,
 				B2761279226E06E4005AA586 /* Sources */,
 				B276127A226E06E4005AA586 /* Frameworks */,
 				B276127B226E06E4005AA586 /* Resources */,
@@ -250,6 +295,97 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1AF3A21B8A8ABB8D6FB2179B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-RailsSample/Pods-RailsSample-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-RailsSample/Pods-RailsSample-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		32E9A1BB3FFA35035B805638 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-RailsSampleTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A24C3B60BDEDC8C8B009CA6A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-RailsSample-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EEC35FC2D7B159AF03755F96 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-RailsSampleUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		B276125A226E06E3005AA586 /* Sources */ = {
@@ -430,6 +566,7 @@
 		};
 		B2761287226E06E5005AA586 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6268DB57A093B656FABD6433 /* Pods-RailsSample.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -448,6 +585,7 @@
 		};
 		B2761288226E06E5005AA586 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2F3EA1C95C144D6251A7A4EC /* Pods-RailsSample.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -466,6 +604,7 @@
 		};
 		B276128A226E06E5005AA586 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 051A7A9A5F8AC9405FB9548B /* Pods-RailsSampleTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -487,6 +626,7 @@
 		};
 		B276128B226E06E5005AA586 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A3FB02AA26DFAE06CE063A97 /* Pods-RailsSampleTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -508,6 +648,7 @@
 		};
 		B276128D226E06E5005AA586 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0E63932A881E7094A9D31AFB /* Pods-RailsSampleUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -528,6 +669,7 @@
 		};
 		B276128E226E06E5005AA586 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F78030D245EC477C54FD5759 /* Pods-RailsSampleUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;

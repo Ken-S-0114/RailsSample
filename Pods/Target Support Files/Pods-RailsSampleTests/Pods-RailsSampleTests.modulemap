@@ -1,0 +1,6 @@
+framework module Pods_RailsSampleTests {
+  umbrella header "Pods-RailsSampleTests-umbrella.h"
+
+  export *
+  module * { export * }
+}
